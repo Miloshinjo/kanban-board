@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useDispatch } from 'react-redux';
 
 import useClickAway from '../../hooks/useClickAway';
-import { deleteTicket, updateTicket } from '../../store/actions';
+import { updateTicket } from '../../store/actions';
 
 import UpdateTicket from '../UpdateTicket';
 import Draggable from '../Draggable';
