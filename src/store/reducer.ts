@@ -14,12 +14,12 @@ const initialState: StateModel = localStorage.getItem('state')
       },
       inProgress: {
         id: 'inProgress',
-        title: 'In Progress',
+        title: 'In rogress',
         tickets: []
       },
       done: {
         id: 'done',
-        title: 'Done',
+        title: 'Doe',
         tickets: []
       }
     };

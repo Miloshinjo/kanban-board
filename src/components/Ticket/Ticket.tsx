@@ -23,11 +23,12 @@ function Ticket({ columnId, ticketId, text }: Props) {
   const [textValue, setTextValue] = useState<string>(text);
 
   const handleDeleteTicket = (): void => {
-    dispatch(deleteTicket(ticketId));
+    // dispatch(deleteTicket(ticketId));
+    console.log('this is broken on purpose');
   };
 
   const handleDoubleClick = (): void => {
-    setIsEditable(true);
+    // setIsEditable(true);
   };
 
   useClickAway(

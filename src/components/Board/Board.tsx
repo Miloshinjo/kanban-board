@@ -10,7 +10,7 @@ function Board() {
   const [searchTerm, setSearchTerm] = useState<string>('');
 
   const handleSearchChange = (event: ChangeEvent<HTMLInputElement>): void => {
-    setSearchTerm(event.target.value);
+    // setSearchTerm(event.target.value);
   };
 
   return (
